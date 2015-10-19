@@ -1,0 +1,134 @@
+body {
+
+  padding: 10px;
+
+}
+
+@media (min-width: 768px) {
+
+  .container {
+
+    width: 750px;
+
+  }
+
+  .row {
+
+    padding: 2px;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  .container {
+
+    width: 970px;
+
+  }
+
+    .row {
+
+    padding: 2px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  .container {
+
+    width: 1170px;
+
+  }
+
+  .row {
+
+    padding: 2px;
+  }
+
+}
+
+
+[class*="col-"] {
+
+  background-color: white;
+
+  border: 1px solid black;
+
+  text-align: center;
+
+  font-size: 9px;
+
+  height: 80px;
+
+}
+
+  .row {
+
+    padding: 2px;
+  }
+
+  .container {
+
+    padding: 2px;
+  }
+
+  .legend {
+
+    height: 50px;
+    margin: 3px;
+    border: none;
+  }
+
+.lightblue {
+
+  background-color: lightblue;
+}
+
+.red {
+
+    background-color: red;
+}
+
+.pink {
+
+    background-color: pink;
+}
+
+.violet {
+
+    background-color: violet;
+}
+ .green {
+
+    background-color: lightgreen;
+}
+
+.grey {
+
+    background-color: grey;
+}
+
+.yellow {
+
+    background-color: yellow;
+}
+
+.brown {
+
+    background-color: #A79261;
+}
+
+.lightgrey {
+
+    background-color: lightgrey;
+}
+
+.white {
+
+    background-color: #FFA357;
+}
+p.spacer {
+    line-height: 2em;
+}
